@@ -6,14 +6,20 @@
     android:layout_height="match_parent"
     tools:context="scwen.com.animationtest.MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:src="@drawable/bg_paintings"
-        android:layout_height="wrap_content" />
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:src="@drawable/bg_paintings"-->
+        <!--android:layout_height="wrap_content" />-->
 
-    <scwen.com.animationtest.LoadingView
-        android:id="@+id/load"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--<scwen.com.animationtest.LoadingView-->
+        <!--android:id="@+id/load"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+    <Button
+        android:onClick="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>
