@@ -12,18 +12,18 @@ import android.widget.LinearLayout;
 public class AnimatorLayoutParam extends LinearLayout.LayoutParams {
 
 
-    public boolean mDiscrollveAlpha;
-    public boolean mDiscrollveScaleX;
-    public boolean mDiscrollveScaleY;
-    public int mDisCrollveTranslation;
-    public int mDiscrollveFromBgColor;
-    public int mDiscrollveToBgColor;
+    public boolean mDiscrollveAlpha;  //透明度
+    public boolean mDiscrollveScaleX; //X缩放
+    public boolean mDiscrollveScaleY;  //Y缩放
+    public int mDisCrollveTranslation;  //平移
+    public int mDiscrollveFromBgColor;   //渐变起始色
+    public int mDiscrollveToBgColor;    //渐变结束色
 
 
     public AnimatorLayoutParam(Context c, AttributeSet attrs) {
         super(c, attrs);
 
-        TypedArray a = c.obtainStyledAttributes(attrs,R.styleable.AnimatorFrame);
+        TypedArray a = c.obtainStyledAttributes(attrs, R.styleable.AnimatorFrame);
         //没有传属性过来,给默认值FALSE
         mDiscrollveAlpha = a.getBoolean(R.styleable.AnimatorFrame_discrollve_alpha, false);
         mDiscrollveScaleX = a.getBoolean(R.styleable.AnimatorFrame_discrollve_scaleX, false);
