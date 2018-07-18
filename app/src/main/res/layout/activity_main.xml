@@ -11,15 +11,17 @@
         <!--android:src="@drawable/bg_paintings"-->
         <!--android:layout_height="wrap_content" />-->
 
-    <!--<scwen.com.animationtest.LoadingView-->
-        <!--android:id="@+id/load"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" />-->
+    <include layout="@layout/activity_anim_framework"/>
+
+    <scwen.com.animationtest.LoadingView
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
-    <Button
-        android:onClick="start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <!--<Button-->
+        <!--android:onClick="start"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
 
 </FrameLayout>
